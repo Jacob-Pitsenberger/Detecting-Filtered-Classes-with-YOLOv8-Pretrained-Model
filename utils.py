@@ -4,7 +4,9 @@ Program: utils.py
 Version: 1.0
 Project: Detecting Filtered Classes with YOLOv8 Pretrained Model
 Date: 12/5/2023
-Purpose: This module conains ...
+Purpose: This module contains utility functions for creating a dictionary used for referencing the class
+         names and id's under the coco dataset and a function for performing Non-Maximum Suppression (NMS)
+         to filter out duplicate detections.
 Uses: N/A
 """
 
